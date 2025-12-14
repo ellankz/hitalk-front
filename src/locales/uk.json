@@ -1,0 +1,95 @@
+{
+  "home": {
+    "title": "HITALK",
+    "createQuiz": "Створити Вікторину",
+    "joinGame": "Приєднатися до Гри"
+  },
+  "host": {
+    "createQuiz": {
+      "title": "Створити Вікторину",
+      "quizTitle": "Назва Вікторини",
+      "quizTitlePlaceholder": "Введіть назву вікторини",
+      "addQuestion": "Додати Питання",
+      "questionNumber": "Питання {number}",
+      "questionText": "Текст Питання",
+      "questionPlaceholder": "Введіть ваше питання",
+      "imageUrl": "URL Зображення",
+      "imageUrlPlaceholder": "Введіть URL зображення (необов'язково)",
+      "imagePreview": "Попередній перегляд зображення",
+      "optional": "необов'язково",
+      "option": "Варіант {number}",
+      "optionPlaceholder": "Введіть варіант {number}",
+      "correctAnswer": "Правильна Відповідь",
+      "removeQuestion": "Видалити Питання",
+      "createGame": "Створити Гру",
+      "validation": {
+        "titleRequired": "Назва вікторини обов'язкова",
+        "questionRequired": "Текст питання обов'язковий",
+        "optionRequired": "Усі варіанти мають бути заповнені",
+        "minQuestions": "Потрібно принаймні одне питання"
+      }
+    },
+    "lobby": {
+      "title": "Кімната Очікування",
+      "roomCode": "Код Кімнати",
+      "playersWaiting": "Гравці Очікують",
+      "noPlayers": "Поки немає гравців",
+      "startGame": "Почати Гру"
+    },
+    "game": {
+      "question": "Питання {current} з {total}",
+      "waitingForAnswers": "Очікування відповідей гравців...",
+      "playersAnswered": "{count} гравців відповіли",
+      "showResults": "Показати Результати",
+      "nextQuestion": "Наступне Питання",
+      "viewFinalScores": "Переглянути Фінальні Результати",
+      "results": {
+        "title": "Результати",
+        "correctAnswer": "Правильна Відповідь",
+        "correct": "{count} правильних",
+        "incorrect": "{count} неправильних",
+        "leaderboard": "Таблиця Лідерів"
+      },
+      "finished": {
+        "title": "Гра Завершена!",
+        "winner": "Переможець",
+        "finalScores": "Фінальні Результати"
+      }
+    }
+  },
+  "player": {
+    "join": {
+      "title": "Приєднатися до Гри",
+      "roomCode": "Код Кімнати",
+      "roomCodePlaceholder": "Введіть 6-значний код",
+      "nickname": "Нікнейм",
+      "nicknamePlaceholder": "Введіть ваш нікнейм",
+      "joinButton": "Приєднатися до Гри",
+      "validation": {
+        "roomCodeRequired": "Код кімнати обов'язковий",
+        "roomCodeInvalid": "Код кімнати має бути 6-значним",
+        "nicknameRequired": "Нікнейм обов'язковий"
+      }
+    },
+    "game": {
+      "waitingToStart": "Очікування початку гри від ведучого...",
+      "selectAnswer": "Виберіть вашу відповідь",
+      "submitted": "Відповідь надіслана!",
+      "correct": "Правильно!",
+      "incorrect": "Неправильно!",
+      "yourAnswer": "Ваша Відповідь",
+      "yourScore": "Ваш Бал: {score}",
+      "waitingForResults": "Очікування результатів...",
+      "waitingForHost": "Очікування ведучого...",
+      "gameFinished": "Гра Завершена!",
+      "finalScore": "Ваш Фінальний Бал: {score}"
+    }
+  },
+  "common": {
+    "back": "Назад",
+    "loading": "Завантаження...",
+    "error": "Помилка",
+    "score": "Бал",
+    "position": "Позиція"
+  }
+}

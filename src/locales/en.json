@@ -1,0 +1,95 @@
+{
+  "home": {
+    "title": "HITALK",
+    "createQuiz": "Create Quiz",
+    "joinGame": "Join Game"
+  },
+  "host": {
+    "createQuiz": {
+      "title": "Create Quiz",
+      "quizTitle": "Quiz Title",
+      "quizTitlePlaceholder": "Enter quiz title",
+      "addQuestion": "Add Question",
+      "questionNumber": "Question {number}",
+      "questionText": "Question Text",
+      "questionPlaceholder": "Enter your question",
+      "imageUrl": "Image URL",
+      "imageUrlPlaceholder": "Enter image URL (optional)",
+      "imagePreview": "Image preview",
+      "optional": "optional",
+      "option": "Option {number}",
+      "optionPlaceholder": "Enter option {number}",
+      "correctAnswer": "Correct Answer",
+      "removeQuestion": "Remove Question",
+      "createGame": "Create Game",
+      "validation": {
+        "titleRequired": "Quiz title is required",
+        "questionRequired": "Question text is required",
+        "optionRequired": "All options must be filled",
+        "minQuestions": "At least one question is required"
+      }
+    },
+    "lobby": {
+      "title": "Waiting Room",
+      "roomCode": "Room Code",
+      "playersWaiting": "Players Waiting",
+      "noPlayers": "No players yet",
+      "startGame": "Start Game"
+    },
+    "game": {
+      "question": "Question {current} of {total}",
+      "waitingForAnswers": "Waiting for players to answer...",
+      "playersAnswered": "{count} players answered",
+      "showResults": "Show Results",
+      "nextQuestion": "Next Question",
+      "viewFinalScores": "View Final Scores",
+      "results": {
+        "title": "Results",
+        "correctAnswer": "Correct Answer",
+        "correct": "{count} correct",
+        "incorrect": "{count} incorrect",
+        "leaderboard": "Leaderboard"
+      },
+      "finished": {
+        "title": "Game Finished!",
+        "winner": "Winner",
+        "finalScores": "Final Scores"
+      }
+    }
+  },
+  "player": {
+    "join": {
+      "title": "Join Game",
+      "roomCode": "Room Code",
+      "roomCodePlaceholder": "Enter 6-digit code",
+      "nickname": "Nickname",
+      "nicknamePlaceholder": "Enter your nickname",
+      "joinButton": "Join Game",
+      "validation": {
+        "roomCodeRequired": "Room code is required",
+        "roomCodeInvalid": "Room code must be 6 digits",
+        "nicknameRequired": "Nickname is required"
+      }
+    },
+    "game": {
+      "waitingToStart": "Waiting for host to start the game...",
+      "selectAnswer": "Select your answer",
+      "submitted": "Answer submitted!",
+      "correct": "Correct!",
+      "incorrect": "Incorrect!",
+      "yourAnswer": "Your Answer",
+      "yourScore": "Your Score: {score}",
+      "waitingForResults": "Waiting for results...",
+      "waitingForHost": "Waiting for host...",
+      "gameFinished": "Game Finished!",
+      "finalScore": "Your Final Score: {score}"
+    }
+  },
+  "common": {
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "score": "Score",
+    "position": "Position"
+  }
+}
