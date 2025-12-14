@@ -21,33 +21,22 @@ class SocketService {
     if (this.socket?.connected) return;
 
     this.socket = io(this.serverUrl, {
-      transports: ['polling', 'websocket'], // Try polling first, upgrade to websocket
+      transports: ['websocket'],
       reconnection: true,
       reconnectionDelay: 1000,
       reconnectionAttempts: 5,
-      upgrade: true, // Allow transport upgrade
     });
 
     this.socket.on('connect', () => {
-      console.log('✅ Connected to server:', this.socket?.id);
-      console.log('Transport:', this.socket?.io.engine.transport.name);
+      console.log('Connected to server:', this.socket?.id);
     });
 
-    this.socket.on('disconnect', (reason) => {
-      console.log('❌ Disconnected from server. Reason:', reason);
+    this.socket.on('disconnect', () => {
+      console.log('Disconnected from server');
     });
 
     this.socket.on('connect_error', (error) => {
-      console.error('🔴 Connection error:', error.message);
-      console.error('Error details:', error);
-    });
-
-    this.socket.io.on('reconnect_attempt', () => {
-      console.log('🔄 Attempting to reconnect...');
-    });
-
-    this.socket.io.on('reconnect', (attemptNumber) => {
-      console.log('✅ Reconnected after', attemptNumber, 'attempts');
+      console.error('Connection error:', error);
     });
   }
 
