@@ -15,7 +15,7 @@ import type {
 
 class SocketService {
   private socket: Socket | null = null;
-  private readonly serverUrl = 'https://hitalk-back.onrender.com';
+  private readonly serverUrl = 'https://hitalk-back-0epf.onrender.com';
 
   connect(): void {
     if (this.socket?.connected) return;
